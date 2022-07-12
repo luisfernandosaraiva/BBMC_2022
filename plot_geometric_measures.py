@@ -6,6 +6,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import gaussian_kde
 
+# Plot Analises
+
 def plottingData():
     
     df = pd.read_csv(os.getcwd()+"/"+args.data, delimiter= '\t', header=0, sep='\t')
