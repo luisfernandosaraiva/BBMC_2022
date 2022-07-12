@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 def ConvertingXTCFileToPDBFile():
-	""" Function doc """
+	""" Function docs """
 
 	if args.trajin[-4:] == ".pdb":
     		
